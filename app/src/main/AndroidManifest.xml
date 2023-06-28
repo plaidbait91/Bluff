@@ -4,6 +4,7 @@
 
     <application
         android:allowBackup="true"
+        android:name=".di.HiltApp"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
@@ -28,5 +29,6 @@
                 android:value="" />
         </activity>
     </application>
+
 
 </manifest>
